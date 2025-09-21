@@ -19,3 +19,21 @@ html,body {
   padding: 1rem 0;
   line-height: 1.5;
 }
+@media screen and (max-width: 1023px) {
+    .navbar-menu {
+        background: none !important;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 .5em 1em hsla(var(--bulma-scheme-h),var(--bulma-scheme-s),var(--bulma-scheme-invert-l),.1);
+        padding: .5rem 0;
+    }
+}
+.box {
+    background: #ffffff55 !important;
+    backdrop-filter: blur(10px);
+}
+.button.is-primary {
+    background: #f02a3e !important;
+}
+.button.is-primary:hover {
+    background: #db3a4a !important;
+}
