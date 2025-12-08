@@ -1,111 +1,184 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="juicyads-site-verification" content="b5ff346deb22f80fb780dec71f1f2e37">
-        <title>Chinas Guarras</title>
-        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-        <link rel="stylesheet" href="https://unpkg.com/bulma@1.0.4/css/bulma.min.css" />
-        <link rel="stylesheet" type="text/css" href="landing.css">
-    </head>
-    <body>
-        <section class="hero is-info is-fullheight">
-            <div class="hero-head">
-                <nav class="navbar" role="navigation" aria-label="main navigation">
-                    <div class="container">
-                        <div class="navbar-brand">
-                            <div class="navbar-item">
-                                <img src="logo.png" alt="Logo">
-                            </div>
-                            <a class="navbar-burger has-text-white" role="button" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
-                                <span aria-hidden="true"></span>
-                                <span aria-hidden="true"></span>
-                                <span aria-hidden="true"></span>
-                                <span aria-hidden="true"></span>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinas Guarras - Próximamente</title>
+    <meta name="description" content="El sitio más exclusivo está en camino. Prepárate para la experiencia definitiva.">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="Chinas Guarras - Próximamente">
+    <meta property="og:description" content="El sitio más exclusivo está en camino. Únete a la espera.">
+    <meta property="og:image" content="img/logo.png">
+    <meta property="og:url" content="https://chinasguarras.com">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            red: '#DC2626',
+                            dark: '#0f0f0f',
+                            accent: '#991B1B',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body
+    class="bg-brand-dark text-white min-h-screen flex flex-col relative overflow-x-hidden selection:bg-brand-red selection:text-white">
+
+    <div class="fixed inset-0 z-0">
+        <img src="https://s1.pictoa.com/media/galleries/084/062/08406255682292ad35f/150313455682292de851.jpg"
+            alt="Background" class="w-full h-full object-cover opacity-40">
+        <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-black/50 to-black/90"></div>
+    </div>
+
+
+    <main
+        class="relative z-10 flex flex-col items-center justify-center flex-grow text-center px-4 w-full max-w-4xl mx-auto mt-8 mb-16">
+
+        <div class="space-y-4 animate-fade-in delay-100">
+            <span
+                class="inline-block px-4 py-1 rounded-full bg-brand-red/20 border border-brand-red text-brand-red text-sm font-semibold tracking-wider uppercase backdrop-blur-sm">
+                PRÓXIMAMENTE
+            </span>
+            <img src="img/logo.png" alt="Chinas Guarras Logo" class="w-full h-auto">
+            <p class="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
+                En Chinas Guarras podrás encontrar las mejores fotos y vídeos porno de asiáticas para todos los gustos.
+            </p>
+        </div>
+
+        <div class="mt-12 w-full animate-fade-in delay-200">
+            <p class="text-sm uppercase tracking-widest text-gray-400 mb-6">Abiremos nuestras puertas dentro de:
+            </p>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-3xl mx-auto">
+                <div
+                    class="glass-panel p-6 rounded-2xl flex flex-col items-center hover:border-brand-red/50 transition-colors duration-300">
+                    <span id="days"
+                        class="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-400">00</span>
+                    <span class="text-xs md:text-sm text-gray-400 uppercase tracking-wider mt-2">Días</span>
+                </div>
+                <div
+                    class="glass-panel p-6 rounded-2xl flex flex-col items-center hover:border-brand-red/50 transition-colors duration-300">
+                    <span id="hours"
+                        class="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-400">00</span>
+                    <span class="text-xs md:text-sm text-gray-400 uppercase tracking-wider mt-2">Horas</span>
+                </div>
+                <div
+                    class="glass-panel p-6 rounded-2xl flex flex-col items-center hover:border-brand-red/50 transition-colors duration-300">
+                    <span id="minutes"
+                        class="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-400">00</span>
+                    <span class="text-xs md:text-sm text-gray-400 uppercase tracking-wider mt-2">Minutos</span>
+                </div>
+                <div class="glass-panel p-6 rounded-2xl flex flex-col items-center border-brand-red/30 glow-red">
+                    <span id="seconds" class="text-4xl md:text-6xl font-bold text-brand-red">00</span>
+                    <span class="text-xs md:text-sm text-brand-red uppercase tracking-wider mt-2">Segundos</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-16 w-full max-w-md animate-fade-in delay-300">
+            <form id="newsletter-form" action="https://formspree.io/f/xgvnwvog" method="POST"
+                class="flex flex-col gap-4">
+                <div class="relative group">
+                    <input type="email" name="email" placeholder="Tu correo electrónico" required
+                        class="w-full px-6 py-4 rounded-xl bg-white/5 border border-white/10 text-white placeholder-gray-400 focus:outline-none focus:border-brand-red focus:ring-1 focus:ring-brand-red transition-all duration-300 backdrop-blur-sm">
+                    <i
+                        class="fas fa-envelope absolute right-6 top-1/2 transform -translate-y-1/2 text-gray-500 group-focus-within:text-brand-red transition-colors"></i>
+                </div>
+                <button type="submit"
+                    class="w-full px-8 py-4 rounded-xl bg-gradient-to-r from-brand-red to-brand-accent text-white font-bold tracking-wide uppercase hover:shadow-[0_0_20px_rgba(220,38,38,0.4)] transform hover:-translate-y-1 transition-all duration-300">
+                    Notificarme
+                </button>
+            </form>
+            <div id="form-status" class="mt-4 text-center hidden"></div>
+            <p class="mt-4 text-xs text-gray-500">
+                No hacemos spam. Solo te avisaremos cuando el sitio esté listo.
+            </p>
+        </div>
+
+        <div class="mt-16 w-full animate-fade-in delay-300 flex flex-col items-center">
+            <p class="text-gray-400 mb-6 text-sm uppercase tracking-wider">Mientras esperas, puedes ver un vídeo en
+                nuestra página vecina</p>
+
+            <div class="w-full max-w-sm px-4 md:px-0">
+                <div
+                    class="group bg-white/5 border border-white/10 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl hover:shadow-[#FFD700]/20 hover:border-[#FFD700]/30 hover:scale-[1.03] transition-all duration-300 flex flex-col h-full">
+                    <div class="relative overflow-hidden">
+                        <figure class="relative w-full pb-[56.25%] overflow-hidden bg-black">
+                            <a href="https://muchosnegros.com/video/negra-cochina-le-come-el-chocho-a-esta-china"
+                                target="_blank" class="absolute top-0 left-0 w-full h-full">
+                                <img src="https://ei.phncdn.com/videos/202106/03/389010951/original/(m=qRVVXRWbeaAaGwObaaaa)(mh=Edn0jxqyM94KTUP9)0.jpg"
+                                    style="scale: 1.77;"
+                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                    alt="Negra cochina le come el chocho a la china muchos negros">
+
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                </div>
                             </a>
-                        </div>
-                        <div id="navbarMenu" class="navbar-menu">
-                            <div class="navbar-end">
-                                <span class="navbar-item">
-                                    <a rel="me" class="button is-white is-outlined" href="https://x.com/ChinasGuarras">
-                                        <span class="icon">
-                                            <i class="fab fa-twitter"></i>
-                                        </span>
-                                        <span>Twitter/X</span>
-                                    </a>
-                                </span>
-                                <span class="navbar-item">
-                                    <a rel="me" class="button is-white is-outlined" href="https://bsky.app/profile/chinasguarras.com">
-                                        <span class="icon">
-                                            <i class="fab fa-bluesky"></i>
-                                        </span>
-                                        <span>Bluesky</span>
-                                    </a>
-                                </span>
-                                <span class="navbar-item">
-                                    <a rel="me" class="button is-white is-outlined" href="https://mastodon.social/@ChinasGuarras">
-                                        <span class="icon">
-                                            <i class="fab fa-mastodon"></i>
-                                        </span>
-                                        <span>Mastodon</span>
-                                    </a>
-                                </span>
-                                <span class="navbar-item">
-                                    <a rel="me" class="button is-white is-outlined" href="https://www.instagram.com/chinasguarras/">
-                                        <span class="icon">
-                                            <i class="fab fa-instagram"></i>
-                                        </span>
-                                        <span>Instagram</span>
-                                    </a>
-                                </span>
+
+                            <div
+                                class="absolute bottom-3 right-3 inline-flex items-center justify-center px-3 py-1.5 bg-black/80 text-white text-xs font-semibold rounded-full z-10 border border-white/20">
+                                <i class="fas fa-play mr-1.5"></i>
+                                11:13
                             </div>
-                        </div>
+                        </figure>
                     </div>
-                </nav>
-                </div>
 
-                <div class="hero-body">
-                    <div class="container has-text-centered">
-                        <div class="column is-6 is-offset-3">
-                            <h1 class="title has-text-white">
-                                Próximamente
-                            </h1>
-                            <h2 class="subtitle has-text-white">
-                                <strong class="has-text-white">Chinas Guarras</strong> abrirá sus puertas pronto.<br>
-
+                    <div class="p-4 flex-grow bg-black/20 text-left">
+                        <a href="https://muchosnegros.com/video/negra-cochina-le-come-el-chocho-a-esta-china"
+                            target="_blank">
+                            <h2 class="text-[#D4AF37] text-base font-bold leading-tight line-clamp-2 group-hover:brightness-125 group-hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.6)] transition-all"
+                                title="Negra cochina le come el chocho a la china">
+                                Negra cochina le come el chocho a la china
                             </h2>
-                            <div class="box">
-                                <form action="https://formspree.io/f/xgvnwvog" method="POST" class="control is-expanded">
-                                    <div class="field is-grouped">
-                                        <div class="control is-expanded">
-                                            <input class="input is-white" required="" type="email" name="email" placeholder="Escribe tu correo...">
-                                        </div>
-                                        <div class="control">
-                                            <input class="button is-primary" type="submit" value="Avísame">
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                            <p class="has-text-white">
-                                Mientras tanto, visita nuestra página hermana:
-                                <a href="https://muchosnegros.com/video/negra-cochina-le-come-el-chocho-a-esta-china">
-                                    <figure class="image mt-1">
-                                        <img
-                                            style="filter: drop-shadow(0px 0px 10px #000000);"
-                                            src="https://muchosnegros.com/images/mn.png"
-                                            alt="muchosnegros.com">
-                                    </figure>
-                                </a>
-                            </p>
-                        </div>
+                        </a>
                     </div>
                 </div>
+            </div>
+        </div>
 
-        </section>
-        <script async type="text/javascript" src="bulma.js"></script>
-    </body>
+    </main>
+
+    <footer class="relative z-10 w-full py-8 text-center text-gray-500 text-sm animate-fade-in delay-500">
+        <div class="flex justify-center gap-6 mb-8 text-xl">
+            <a href="https://twitter.com/ChinasGuarras" target="_blank"
+                class="text-gray-400 hover:text-brand-red transition-colors duration-300" aria-label="Twitter"><i
+                    class="fab fa-twitter"></i></a>
+            <a href="https://bsky.app/profile/chinasguarras.com" target="_blank"
+                class="text-gray-400 hover:text-brand-red transition-colors duration-300" aria-label="Bluesky"><i
+                    class="fab fa-bluesky"></i></a>
+            <a href="https://mastodon.social/@ChinasGuarras" target="_blank"
+                class="text-gray-400 hover:text-brand-red transition-colors duration-300" aria-label="Mastodon"><i
+                    class="fab fa-mastodon"></i></a>
+            <a href="https://instagram.com/ChinasGuarras" target="_blank"
+                class="text-gray-400 hover:text-brand-red transition-colors duration-300" aria-label="Instagram"><i
+                    class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; <span id="year">2025</span> Chinas Guarras. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
 </html>
