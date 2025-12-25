@@ -1,16 +1,4 @@
-const countdownTarget = new Date();
-const currentYear = new Date().getFullYear();
-const currentMonth = new Date().getMonth();
-const currentDay = new Date().getDate();
-
-if (currentMonth === 11 && currentDay > 25) {
-    countdownTarget.setFullYear(currentYear + 1);
-} else {
-    countdownTarget.setFullYear(currentYear);
-}
-countdownTarget.setMonth(11); // December (0-indexed)
-countdownTarget.setDate(25);
-countdownTarget.setHours(0, 0, 0, 0);
+const countdownTarget = new Date(2026, 0, 10, 0, 0, 0);
 
 function updateCountdown() {
     const now = new Date().getTime();
